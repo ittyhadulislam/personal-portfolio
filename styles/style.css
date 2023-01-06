@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    /* border: 1px solid red; */
+}
+
+.header {
+    background-color: #FFF8F3;
+    background: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+
+.header-nevigations {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding: 40px 0;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.logo-red {
+    color: #FD6E0A;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* button */
+.nav-list li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+li .nav-btn a {
+    color: white;
+}
+
+.nav-btn,
+.download-cv {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    border: 1px solid #FD6E0A;
+    padding: 9px 30px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+
+.download-cv a,
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.download-cv a {
+    color: white;
+}
+
+
+/* header title */
+
+.title-section {
+    /* height: 100vh; */
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.sub-title {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.discription {
+    color: #757575;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+/* main content */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-top: 120px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.about-title,
+.about-dispcription {
+    text-align: center;
+}
+
+.about-title {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.about-dispcription {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.info div {
+    padding-right: 25px;
+}
+
+.info .info-heading,
+.info-data {
+    text-align: center;
+}
+
+.info-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #757575;
+}
+
+.service {
+    padding: 130px 150px;
+}
+
+.service .service-title,
+.service_description {
+    text-align: center;
+}
+
+.service .service-title {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.service .service_description {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #757575;
+}
+
+.service-card {
+    display: flex;
+    padding: 50px;
+}
+
+.cards {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.cards img {
+    padding-bottom: 20px;
+}
+
+.cards .card-title {
+    padding-bottom: 20px;
+}
+
+.cards .card-discription {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #757575;
+}
