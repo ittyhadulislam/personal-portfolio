@@ -43,7 +43,7 @@
     margin-left: 50px;
 }
 
-/* button */
+/* Navbar button */
 .nav-list li a {
     font-size: 20px;
     text-decoration: none;
@@ -53,6 +53,8 @@
 li .nav-btn a {
     color: white;
 }
+
+/* download cs and contact button */
 
 .nav-btn,
 .download-cv {
@@ -67,6 +69,14 @@ li .nav-btn a {
     padding: 9px 30px;
     border-radius: 10px;
     background-color: #FFF8F3;
+}
+
+.download-cv i {
+    color: #fff;
+}
+
+.contact i {
+    color: #FD6E0A;
 }
 
 .download-cv a,
@@ -85,9 +95,18 @@ li .nav-btn a {
 .title-section {
     /* height: 100vh; */
     display: flex;
-    margin: 0 200px;
+    /* margin: 0 200px; */
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.title-div {
+    margin-left: 50px;
+}
+
+.title-section img {
+    margin-bottom: -7px;
+    padding-left: 80px;
 }
 
 .sub-title {
@@ -250,7 +269,64 @@ main {
     text-align: center;
 }
 
+.resume-btn i {
+    color: #fff;
+}
+
 .resume-btn a {
     text-decoration: none;
     color: white;
+}
+
+
+/* footer */
+
+footer {
+    background: #FFF8F3;
+}
+
+.footer-section {
+    display: flex;
+    gap: 90px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 130px 150px;
+}
+
+.footer-content p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #757575;
+    padding: 20px 0;
+}
+
+.footer-content .social-icon {
+    margin-right: 20px;
+}
+
+.footer-content .form-input {
+    width: 400px;
+    margin: 10px 0;
+    padding: 15px 5px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
+
+.footer-content .form-textarea {
+    width: 400px;
+    margin: 10px 0;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    padding: 15px 5px;
+}
+
+.form-btn {
+    margin-top: 30px;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
 }
