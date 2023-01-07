@@ -180,12 +180,14 @@ main {
 
 .service-card {
     display: flex;
+    gap: 50px;
     padding: 50px;
 }
 
 .cards {
-    padding-right: 50px;
-    padding-left: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
 }
 
 .cards img {
@@ -200,4 +202,55 @@ main {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
     color: #757575;
+}
+
+/* resume section */
+
+.for-resume-section {
+    padding: 150px;
+}
+
+.resume-title {
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.resume-section {
+    display: flex;
+    gap: 71px;
+}
+
+.resumes h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.resumes h3 {
+    padding-bottom: 30px;
+}
+
+.resumes p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 24px;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    background-color: #FD6E0A;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.resume-button-div {
+    text-align: center;
+}
+
+.resume-btn a {
+    text-decoration: none;
+    color: white;
 }
