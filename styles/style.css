@@ -177,6 +177,8 @@ main {
     color: #757575;
 }
 
+
+
 .service {
     padding: 130px 150px;
 }
@@ -329,4 +331,147 @@ footer {
     text-align: center;
     color: #fff;
     font-size: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* navbar */
+
+    .header-nevigations {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+        padding: 40px 0;
+    }
+
+    .logo-red {
+        color: #FD6E0A;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-list li {
+        margin-left: 0;
+    }
+
+    /* header  */
+
+    .header {
+        background-color: #FFF8F3;
+        background: url("../images/developer.png");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+
+    .title-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .title-div {
+        margin: 0 0;
+        padding: 30px;
+    }
+
+    .sub-title {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .title {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .discription {
+        color: #757575;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    /* header button */
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* header image */
+    .title-section>div>img {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    /* about me  */
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .info>div {
+        padding-right: 0;
+        padding-bottom: 30px;
+
+    }
+
+
+
+    /* what i do section */
+
+    .service {
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .service-title,
+    .service_description {
+        padding: 30px;
+    }
+
+    .service-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* resume section */
+
+    .for-resume-section {
+        padding: 30px;
+    }
+
+    .resume-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* footer section */
+    .footer-section {
+        display: flex;
+        gap: 90px;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .footer-content .form-input,
+    .footer-content .form-textarea {
+        width: 275px;
+    }
 }
